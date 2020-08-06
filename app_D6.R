@@ -51,7 +51,7 @@ body <- dashboardBody(
   column(
     width = 3,
     h3("Permutations", align="center", style = kahua.s),
-    selectInput("chooser",helpText("Choose",span("r", style = "color:royalblue; font-weight: bold"),span(": Order 5",style="font-size:initial"),style=kahua),c("(123456)", '165432')),
+    selectInput("chooser",helpText("Choose",span("r", style = "color:royalblue; font-weight: bold"),span(": Order 5",style="font-size:initial"),style=kahua),c("(123456)", '(165432)')),
     selectInput("choosef",helpText("Choose",span("f", style = "color:darkorange; font-weight: bold"),span(": Order 2",style="font-size:initial"),style=kahua),c("(12)(36)(45)", "(26)(35)", '(13)(46)', '(15)(24)', '(16)(25)(34)', '(14)(23)(56)')),
     actionBttn("makeperm","Make Permutations",style="jelly")
   )
